@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Indian of The Year</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/ioty.css" rel="stylesheet">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript">
+	WebFontConfig = {
+		google: { families: [ 'Roboto::latin' ] }
+	};
+	(function() {
+		var wf = document.createElement('script');
+		wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		wf.type = 'text/javascript';
+		wf.async = 'true';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(wf, s);
+	})(); 
+</script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="logo"><a href="#"><img src="img/IOTY-logo.png" alt="Indian of The Year" title="Indian of The Year"></a></div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand floatL" href="index.html"><img class="img-responsive" src="img/IOTY-logo.png" alt="Indian of The Year" title="Indian of The Year"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html"><span>Home</span></a></li>
+                    <li><a class="active" href="about.html"><span>About</span></a></li>
+                    <li><a href="jury.html"><span>Jury</span></a></li>
+                    <li><a href="nominees.html"><span>Nominees</span></a></li>
+                    <li><a href="photos.html"><span>Photos</span></a></li>
+                    <li><a href="videos.html"><span>Videos</span></a></li>
+                    <li><a href="winners.html"><span>Winners</span></a></li>
+                    <li><a href="partners.html"><span>Partners</span></a></li>
+                    <li><a href="connectWithUs.html"><span>Connect With Us</span></a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	<!-- homepage Intro screen -->        
+    <!-- /.container -->
+	
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <div>
+                    <!-- About Us -->
+                    <h1 class="brand-name text-center">About "CNN-IBN Indian of the Year"</h1>
+                    <hr class="tagline-divider">
+                    <p>The year 2006 saw the introduction of the CNN-IBN Indian of the Year. The initiative recognizes the Indian(s) whose contribution to the country in a calendar year has strengthened the foundation of our society and has helped build Brand India in the process. Having seen nine editions since its inception, the CNN-IBN Indian of the Year has cemented its position as the biggest awards in the domain of News television and an institution of impeccable credibility.</p>
+                    <p>Winners are felicitated for their contributions across categories such as:</p>
+                    <ul class="list01">
+                    	<li>Politics</li>
+                    	<li>Sports</li>
+                    	<li>Entertainment</li>
+                    	<li>Business</li>
+                    	<li>Public</li>
+                    	<li>Service</li>
+                    	<li>Global Indian</li>
+                    </ul>
+                    <p>In addition to this, Special Achievement, Outstanding Achievement & Lifetime Achievement Awards are presented to other exceptional achievers.</p>
+                </div>
+            </div>
+            <div class="sponsor-band-inner">sponsor band</div>
+        </div>
+        <div class="social-media">
+        	<ul>
+				<li><a href="#" class="generalIcons iconFb"></a></li>
+				<li><a href="#" class="generalIcons iconTwit"></a></li>
+				<li><a href="#" class="generalIcons iconGoogle"></a></li>
+				<li><a href="#" class="generalIcons iconUtube"></a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Script to Activate the Carousel -->
+    <script>
+    /* carousal script */
+	$('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })    
+    /* carousal */
+    $(document).ready(function(){
+		/* show content on click of more btn */
+		$('#btn-more').click(function(){                          
+			$('#hidden-content').show();
+		});
+	});
+</script>
+</body>
+</html>

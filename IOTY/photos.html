@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Indian of The Year</title>
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/ioty.css" rel="stylesheet">
+<!-- Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript">
+	WebFontConfig = {
+		google: { families: [ 'Roboto::latin' ] }
+	};
+	(function() {
+		var wf = document.createElement('script');
+		wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		wf.type = 'text/javascript';
+		wf.async = 'true';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(wf, s);
+	})(); 
+</script>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="logo"><a href="#"><img src="img/IOTY-logo.png" alt="Indian of The Year" title="Indian of The Year"></a></div>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed --> 
+      <a class="navbar-brand floatL" href="index.html"><img class="img-responsive" src="img/IOTY-logo.png" alt="Indian of The Year" title="Indian of The Year"></a> </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html"><span>Home</span></a></li>
+        <li><a href="aboutUs.html"><span>About</span></a></li>
+        <li><a href="jury.html"><span>Jury</span></a></li>
+        <li><a href="nominees.html"><span>Nominees</span></a></li>
+        <li><a class="active" href="photos.html"><span>Photos</span></a></li>
+        <li><a href="videos.html"><span>Videos</span></a></li>
+        <li><a href="winners.html"><span>Winners</span></a></li>
+        <li><a href="partners.html"><span>Partners</span></a></li>
+        <li><a href="connectWithUs.html"><span>Connect With Us</span></a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container --> 
+</nav>
+<!-- homepage Intro screen --> 
+<!-- /.container -->
+<div class="container-photos">
+  <div class="container">
+    <div class="row">
+      <div class="box">
+        <div class="container-fluid"> 
+          <!-- Nominees -->
+          <h1 class="brand-name text-center">photo gallery</h1>
+          <hr class="tagline-divider03">
+          <div class="tabs">
+            <div class="btn-group hidden-xs hidden-sm">
+              <button type="button" class="btn btn-primary 2014Link focus">2014</button>
+              <button type="button" class="btn btn-primary 2013Link">2013</button>
+              <button type="button" class="btn btn-primary 2012Link">2012</button>
+              <button type="button" class="btn btn-primary 2011Link">2011</button>
+              <button type="button" class="btn btn-primary 2010Link">2010</button>
+              <button type="button" class="btn btn-primary 2009Link">2009</button>
+            </div>
+            <div class="dropdown hidden-lg hidden-md">
+              <select class="form-control" id="sel1">
+                <option class="2014Link">2014</option>
+                <option class="2013Link">2013</option>
+                <option class="2012Link">2012</option>
+                <option class="2011Link">2011</option>
+                <option class="2010Link">2010</option>
+                <option class="2009Link">2009</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div id="2014">
+          <div class="container-fluid">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery01.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Arun Jaitley, Union Minister of Finance and Corp. Affairs with Ravi Shankar Prasad, Union Minister of Communications &amp; IT</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery02.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Deepak Jolly, VP, Public Affairs &amp; Communication, Coca-Cola India with Aditya Ghosh, President &amp; Exec Director, IndiGo</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery03.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Former New Zealand All Rounder Chris Harris with Former Indian Cricketer &amp; Captain Krish Srikkanth</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery04.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Network18 Group CEO AP Parigi with former CAG Vinod Rai and Mrs. Rai</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery05.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Neeraj Sahdev,  GM &amp; Business Head Government Vertical  (India and Middle East) - Wipro with Author and Entertainment category winner Chetan Bhagat</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery06.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Network18 Group CEO AP Parigi with Khushbu, actor-politician</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="2013" style="display:none">
+          <div class="container-fluid">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery04.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Network18 Group CEO AP Parigi with former CAG Vinod Rai and Mrs. Rai</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery05.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Neeraj Sahdev,  GM &amp; Business Head Government Vertical  (India and Middle East) - Wipro with Author and Entertainment category winner Chetan Bhagat</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery06.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Network18 Group CEO AP Parigi with Khushbu, actor-politician</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="2012" style="display:none">
+          <div class="container-fluid">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery01.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Arun Jaitley, Union Minister of Finance and Corp. Affairs with Ravi Shankar Prasad, Union Minister of Communications &amp; IT</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery02.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Deepak Jolly, VP, Public Affairs &amp; Communication, Coca-Cola India with Aditya Ghosh, President &amp; Exec Director, IndiGo</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery03.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Former New Zealand All Rounder Chris Harris with Former Indian Cricketer &amp; Captain Krish Srikkanth</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="2011" style="display:none">
+          <div class="container-fluid">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery04.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Network18 Group CEO AP Parigi with former CAG Vinod Rai and Mrs. Rai</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery05.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Neeraj Sahdev,  GM &amp; Business Head Government Vertical  (India and Middle East) - Wipro with Author and Entertainment category winner Chetan Bhagat</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery06.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Network18 Group CEO AP Parigi with Khushbu, actor-politician</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="2010" style="display:none">
+          <div class="container-fluid">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery01.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Arun Jaitley, Union Minister of Finance and Corp. Affairs with Ravi Shankar Prasad, Union Minister of Communications &amp; IT</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery02.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Deepak Jolly, VP, Public Affairs &amp; Communication, Coca-Cola India with Aditya Ghosh, President &amp; Exec Director, IndiGo</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery03.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Former New Zealand All Rounder Chris Harris with Former Indian Cricketer &amp; Captain Krish Srikkanth</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="2009" style="display:none">
+          <div class="container-fluid">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery04.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Network18 Group CEO AP Parigi with former CAG Vinod Rai and Mrs. Rai</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery05.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Neeraj Sahdev,  GM &amp; Business Head Government Vertical  (India and Middle East) - Wipro with Author and Entertainment category winner Chetan Bhagat</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              <div class="thumb-outer">
+                <div data-toggle="modal" data-target="#photoModal" class="gal-img"><img src="img/gallery06.jpg" alt="" title="" class="img-full img-responsive">
+                  <div class="gal-desc">Network18 Group CEO AP Parigi with Khushbu, actor-politician</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 text-center hidden-xs">
+          <div class="box">
+            <input type="button" onclick="javascript:location.href='aboutUsInner.html'" class="btn btn-default btn-01" value="MORE">
+            <a href="#" class="top-btn"><span class="generalIcons iconTopArrow"></span></a> </div>
+        </div>
+      </div>
+    </div>
+    <div class="social-media">
+      <ul>
+        <li><a href="#" class="generalIcons iconFb"></a></li>
+        <li><a href="#" class="generalIcons iconTwit"></a></li>
+        <li><a href="#" class="generalIcons iconGoogle"></a></li>
+        <li><a href="#" class="generalIcons iconUtube"></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="sponsor-band-inner">sponsor band</div>
+<!-- Modal -->
+<div class="modal fade" id="photoModal" role="dialog">
+  <div class="modal-dialog modal-lg"> 
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Indian of the year</h4>
+      </div>
+      <div class="modal-body"> 
+        <!-- carousel -->
+        <div id="carousel-example-generic" class="carousel slide"> 
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active"> <img class="img-responsive img-full" src="img/gallery07.jpg" alt=""></div>
+            <div class="item"> <img class="img-responsive img-full" src="img/gallery07.jpg" alt=""></div>
+            <div class="item"> <img class="img-responsive img-full" src="img/gallery07.jpg" alt=""></div>
+          </div>
+          <!-- Controls --> 
+          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"> <span class="icon-prev"></span> </a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"> <span class="icon-next"></span> </a> </div>
+      </div>
+      <div class="modal-footer">
+        <div class="desc">Arun Jaitley, Union Minister of Finance and Corp. Affairs with Ravi Shankar Prasad, Union Minister of Communications &amp; IT</div>
+        <div class="gal-content-desc">1 of 10</div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- jQuery --> 
+<script src="js/jquery.js"></script> 
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+<!-- Script to Activate the Carousel --> 
+<script>
+    /* carousal script */
+	$('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })    
+    /* carousal */
+    $(document).ready(function(){
+		/* show content on click of more btn */
+		$('.2014Link').click(function(){
+			$('#2014').show();
+			$('#2013').hide();
+			$('#2012').hide();
+			$('#2011').hide();
+			$('#2010').hide();
+			$('#2009').hide();
+			$('.2014Link').addClass('focus');
+			$('.2013Link, .2012Link, .2011Link, .2010Link, .2009Link ').removeClass('focus');
+		});
+		$('.2013Link').click(function(){
+			$('#2014').hide();
+			$('#2013').show();
+			$('#2012').hide();
+			$('#2012').hide();
+			$('#2011').hide();
+			$('#2009').hide();
+			$('.2013Link').addClass('focus');
+			$('.2014Link, .2012Link, .2011Link, .2010Link, .2009Link ').removeClass('focus');
+		});
+		$('.2012Link').click(function(){
+			$('#2014').hide();
+			$('#2013').hide();
+			$('#2012').show();
+			$('#2011').hide();
+			$('#2010').hide();
+			$('#2009').hide();
+			$('.2012Link').addClass('focus');
+			$('.2014Link, .2013Link, .2011Link, .2010Link, .2009Link ').removeClass('focus');
+		});
+		$('.2011Link').click(function(){
+			$('#2014').hide();
+			$('#2013').hide();
+			$('#2012').hide();
+			$('#2011').show();
+			$('#2010').hide();
+			$('#2009').hide();
+			$('.2011Link').addClass('focus');
+			$('.2014Link, .2013Link, .2012Link, .2010Link, .2009Link ').removeClass('focus');
+		});
+		$('.2010Link').click(function(){
+			$('#2014').hide();
+			$('#2013').hide();
+			$('#2012').hide();
+			$('#2011').hide();
+			$('#2010').show();
+			$('#2009').hide();
+			$('.2010Link').addClass('focus');
+			$('.2014Link, .2013Link, .2012Link, .2011Link, .2009Link ').removeClass('focus');
+		});
+		$('.2009Link').click(function(){
+			$('#2014').hide();
+			$('#2013').hide();
+			$('#2012').hide();
+			$('#2011').hide();
+			$('#2010').hide();
+			$('#2009').show();
+			$('.2009Link').addClass('focus');
+			$('.2014Link, .2013Link, .2012Link, .2011Link, .2010Link ').removeClass('focus');
+		});
+	});
+</script>
+</body>
+</html>
